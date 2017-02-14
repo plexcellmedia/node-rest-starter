@@ -1,0 +1,29 @@
+{
+  "name": "node-rest-starter",
+  "version": "1.0.0",
+  "description": "Build REST application quickly with this pre-configured starter template.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "rest",
+    "express",
+    "mongoose",
+    "jwt"
+  ],
+  "author": "Plexcell Media",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.16.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+    "express-validator": "^3.1.2",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.8.2"
+  }
+}
